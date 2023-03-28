@@ -1,0 +1,47 @@
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: aqua;
+
+}
+.top .dichvu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+
+.top .dichvu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.top .dichvu ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: right;
+}
+.top .dichvu ul li{
+    padding: 10px ;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.top .dichvu ul li:hover{
+    background-color: beige;
+    cursor: pointer;
+    border-bottom: 2px solid rgb(221, 180, 75);
+    font-weight: 100;
+}
+
+.vp
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
